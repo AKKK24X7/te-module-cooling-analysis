@@ -103,7 +103,7 @@ How COP degrades as contact resistance increases (representing oxidation and ato
 ### Figure 5 — 2D Performance Map
 Contour maps of ΔT_max and COP_max across the full leg height × cross-section design space.
 
-![Fig 5](figures/fig5_performance_map.png)
+![Fig 5](Figures/figures:fig5_performance_map.png)
 
 **Key finding:** The performance maps reveal that ΔT_max is relatively insensitive to geometry (driven by zT), while COP_max shows a clear ridge: taller legs with smaller cross-sections (high aspect ratio) favour high COP at low current but penalise Q_c magnitude. Module designers face a genuine trade-off that cannot be resolved without specifying the application's heat load.
 
