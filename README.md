@@ -69,14 +69,14 @@ All values are taken directly from published sources — no fitting to unpublish
 ### Figure 1 — Temperature-Dependent Material Properties
 Transport properties of both legs (Seebeck, resistivity, zT) over 280–420 K, from literature values.
 
-![Fig 1](figures/fig1_material_properties.png)
+![Fig 1](Figures/figures:fig1_material_properties.png)
 
 ---
 
 ### Figure 2 — COP vs Current: Validation Against Ying et al. (2022)
 COP and cooling power curves at six ΔT values. Experimental reference points (★) from Ying et al. Fig. 4e–f confirm the model reproduces the correct magnitude and current-optimum behaviour.
 
-![Fig 2](figures/fig2_cop_curves.png)
+![Fig 2](Figures/figures:fig2_cop_curves.png)
 
 **Key finding:** The analytical model captures the experimentally reported COP trends well. Discrepancies at high current arise from Joule heating in connectors and contact geometry, which the lumped model does not resolve — consistent with the paper's own discussion of parasitic losses.
 
@@ -85,7 +85,7 @@ COP and cooling power curves at six ΔT values. Experimental reference points (�
 ### Figure 3 — Leg Geometry Sensitivity
 How leg height (1.5–6 mm) and cross-section (1.4×1.4 to 2.5×2.5 mm²) affect ΔT_max, max COP, and operating-point COP.
 
-![Fig 3](figures/fig3_geometry_sensitivity.png)
+![Fig 3](Figures/figures:fig3_geometry_sensitivity.png)
 
 **Key finding:** ΔT_max is weakly sensitive to geometry at fixed material properties — it is dominated by zT. COP at a fixed operating ΔT shows stronger geometry dependence because the thermal conductance K scales with A/L while electrical resistance scales with L/A, creating an optimal aspect ratio that depends on the operating current.
 
@@ -94,7 +94,7 @@ How leg height (1.5–6 mm) and cross-section (1.4×1.4 to 2.5×2.5 mm²) affect
 ### Figure 4 — Contact Resistance Degradation
 How COP degrades as contact resistance increases (representing oxidation and atomic migration at the interface after thermal cycling, as characterised in Ying et al. 2024).
 
-![Fig 4](figures/fig4_contact_degradation.png)
+![Fig 4](Figures/figures:fig4_contact_degradation.png)
 
 **Key finding:** The n-type Fe/Mg₃(Sb,Bi)₂ contact is the more sensitive interface — its higher baseline resistance means degradation scales more aggressively. A 5× increase in n-contact resistance reduces COP retention below 90%. This quantitatively motivates the ALD barrier approach in the companion paper.
 
